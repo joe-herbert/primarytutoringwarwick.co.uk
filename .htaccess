@@ -1,0 +1,4 @@
+#Set default index page
+DirectoryIndex index.php maintenance.html
+#Set 404 page
+ErrorDocument 404 /404.html
