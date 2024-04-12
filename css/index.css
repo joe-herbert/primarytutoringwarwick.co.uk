@@ -3,6 +3,7 @@
     --fg-one: #000;
     --fg-two: #111;
     --menu-height: 65px;
+    --bg-two: #b2cdf3;
 }
 
 :root:has(#b2cdf3:checked) {

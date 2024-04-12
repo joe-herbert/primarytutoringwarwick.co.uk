@@ -30,6 +30,24 @@
             "url" : "https://primarytutoringwarwick.co.uk/"
         }
         </script>
+        <!-- Matomo -->
+        <script>
+          var _paq = window._paq = window._paq || [];
+          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+          _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+          _paq.push(["setCookieDomain", "*.primarytutoringwarwick.co.uk"]);
+          _paq.push(["setDomains", ["*.primarytutoringwarwick.co.uk"]]);
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="//primarytutoringwarwick.co.uk/matomo/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <!-- End Matomo Code -->
     </head>
     <body>
         <?php
@@ -117,7 +135,7 @@
                 <div id="firstText">
                     <p>I’m a Primary tutor helping children gain confidence and skills in Maths, English and/or Science.</p>
                     <p>I gain an understanding of the level each child is working at and what help is needed through talking with the parent and child. I then tailor lessons to build on skills and knowledge and work at the speed and detail dictated by the pupil to develop their understanding and confidence. I find a child is often more relaxed in a one&#8209;to&#8209;one situation than in a classroom and they ask questions about the work being undertaken.</p>
-                    <p>I can intercept misconceptions whilst work is being completed and we can work together to correct these, and any errors made. I give immediate feedback about the work completed during the sessions and I encourage hard work, great understanding and pupil engagement through a reward system.</p>
+                    <p>I can identify misconceptions whilst work is being completed and we can work together to correct these, and any errors made. I give immediate feedback about the work completed during the sessions and I encourage hard work, great understanding and pupil engagement through a reward system.</p>
                 </div>
                 <div id="firstImage">
                     <img id="profileImage" src="/assets/images/profile.jpg" alt="Profile picture of Pauline">
