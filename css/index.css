@@ -6,25 +6,6 @@
     --bg-two: #b2cdf3;
 }
 
-:root:has(#b2cdf3:checked) {
-    --bg-two: #b2cdf3 !important;
-}
-:root:has(#d2ecff:checked) {
-    --bg-two: #d2ecff !important;
-}
-:root:has(#d9dbff:checked) {
-    --bg-two: #d9dbff !important;
-}
-:root:has(#efcaff:checked) {
-    --bg-two: #efcaff !important;
-}
-:root:has(#i7e86f7:checked) {
-    --bg-two: #7e86f7 !important;
-}
-:root:has(#i71b9d1:checked) {
-    --bg-two: #71b9d1 !important;
-}
-
 #colorPickerWrapper {
     height: 60px;
     width: 100vw;
